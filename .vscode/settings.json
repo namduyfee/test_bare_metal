@@ -1,0 +1,22 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "cSpell.words": [
+        "AHBENR",
+        "BDCR",
+        "BSRR",
+        "CFGR",
+        "eabi",
+        "GPIOC",
+        "ihex",
+        "LCKR",
+        "mcpu",
+        "mfloat",
+        "msys",
+        "mthumb",
+        "printvalof",
+        "RSTR"
+    ],
+    "files.associations": {
+        "rcc_config.h": "c"
+    }
+}
