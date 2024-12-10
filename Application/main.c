@@ -9,6 +9,7 @@ void main (void) {
     configGPIOC(); 
 
     while(1) {
+        //toggleLed
         toggleLed(); 
 
     }
