@@ -3,9 +3,7 @@
 #ifndef __RCC__
 #define __RCC__
 
-#include <stdio.h> 
-
-#define RCC_BASE_ADDR 0x40021000
+#include "stm32f103c8t6.h"
 
 void configRCC(void); 
 

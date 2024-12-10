@@ -3,13 +3,9 @@
 
 #define __GPIO__
 
-#include <stdio.h> 
-
-
-#define GPIOC_BASE_ADDR 0x40011000
+#include "stm32f103c8t6.h"
 
 void configGPIOC(void); 
-void toggleLed(void); 
 
 #endif
 

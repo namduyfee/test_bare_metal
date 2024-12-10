@@ -7,12 +7,13 @@ PRO_DIR := .
 OUT_DIR := $(PRO_DIR)/Output
 EXE_DIR := $(PRO_DIR)/Bin
 
-SRC_DIRS := $(PRO_DIR)/Application
+SRC_DIRS := $(PRO_DIR)/Application/Src
 SRC_DIRS += $(PRO_DIR)/Application_User/Control_Led/Src
 SRC_DIRS += $(wildcard $(PRO_DIR)/Driver/*/Src)
 
 INC_DIRS := $(wildcard $(PRO_DIR)/Driver/*/Inc)
 INC_DIRS += $(PRO_DIR)/Application_User/Control_Led/Inc
+INC_DIRS += $(PRO_DIR)/Application/Inc
 
 INC_FILES_PATH := $(foreach dir,$(INC_DIRS),$(wildcard $(dir)/*.h))
 SRC_FILES_PATH := $(foreach dir,$(SRC_DIRS),$(wildcard $(dir)/*.c))
